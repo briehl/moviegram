@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Debug (Launch)",
+            "request": "launch",
+            "mainClass": "net.digitaldissonance.moviegram.UIMain",
+            "projectName": "moviegram gui"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - App",
             "request": "launch",
             "mainClass": "net.digitaldissonance.moviegram.App",
